@@ -15,8 +15,8 @@
 package main
 
 import (
-	"./cmd"
 	"fmt"
+	"github.com/eddyhub/csv_to_vault/cmd"
 	"os"
 )
 

@@ -16,10 +16,10 @@ package cmd
 
 import (
 	"fmt"
-	"../sync"
+	"github.com/eddyhub/csv_to_vault/sync"
 	"github.com/spf13/cobra"
-	"strings"
 	"github.com/spf13/viper"
+	"strings"
 )
 
 var csvFile, branch string

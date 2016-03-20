@@ -133,4 +133,3 @@ func ReadCsv(path string) (header []string, data [][]string) {
 	}
 	return
 }
-
