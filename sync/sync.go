@@ -134,18 +134,3 @@ func ReadCsv(path string) (header []string, data [][]string) {
 	return
 }
 
-//edi@edi vaultproject]$ ./vault init -address=https://localhost:8200 -ca-cert=ca.crt
-//Key 1: 84914ffd0a27b6ee5822504b7542f7425b30832fcbbf0e7078d82564ed379ed701
-//Key 2: fe8ec12295576c8505d00687b3e00a9e609aa95e383fb99f7fae02265d00b44802
-//Key 3: 7a9311f4853a429ad04421a37f38935d02181ffb2a396ee36a74779c753f85b403
-//Key 4: 7e689af79541fd2a62356912bf078981c93e971b39b06086a94d225fe3db66db04
-//Key 5: fa754a21852cd335b7a14e3673df1042abbc21be2bb6b7fabc9757e5cbe4572705
-//Initial Root Token: 63f56001-8746-2dcf-4bfe-6897b048cd4a
-//
-//Vault initialized with 5 keys and a key threshold of 3. Please
-//securely distribute the above keys. When the Vault is re-sealed,
-//restarted, or stopped, you must provide at least 3 of these keys
-//to unseal it again.
-//
-//Vault does not store the master key. Without at least 3 keys,
-//your Vault will remain permanently sealed.
